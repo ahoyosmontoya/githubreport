@@ -1,16 +1,13 @@
-import './App.css';
-import Header from './components/header/Header';
-import SearchBox from './components/searchBox/SearchBox';
-import Footer from './components/footer/Footer';
+import "./App.css";
+import InitialPage from "./components/initialPage/InitialPage";
 
-function App() {
+
+const App = () => {
   return (
     <>
-      <Header />
-      <SearchBox />
-      <Footer />
+      <InitialPage />
     </>
   );
-}
+};
 
 export default App;
