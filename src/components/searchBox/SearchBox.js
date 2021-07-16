@@ -10,6 +10,9 @@ const SearchBox = () => {
           <button type="button" className="btn btn-success">
             Buscar
           </button>
+          <div>
+            <button className ="button btn-blue"> adicionar otra busqueda</button>
+          </div>
         </div>
       </div>
     </div>
