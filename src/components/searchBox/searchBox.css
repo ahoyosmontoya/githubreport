@@ -1,3 +1,17 @@
-#searchBox {
-	padding: 5000px; margin: 1000px;
-	}
+#border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.square{
+	border: 1px solid rgba(0,0,0,.125);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#button{
+  padding-bottom: 20px;
+}
+.big-square{
+  border: 1px solid rgba(0,0,0,.125);
+}
