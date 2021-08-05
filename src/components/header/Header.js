@@ -1,8 +1,11 @@
 const Header = () => {
   return (
-    <div>
-      <h5 className="card-header text-center">GIT HUB REPORT</h5>
-    </div>
+    <div className="jumbotron text-center" style={{marginBottom:"0"}}>
+    <h1>Cabecera para CLAUDIA "practice"</h1>
+    <p>litle by litle</p> 
+  </div>
+  
+
   );
 };
 
