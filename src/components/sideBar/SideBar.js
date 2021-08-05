@@ -1,12 +1,14 @@
-
+import hamburgesa from "../imgs/img/hamburguesa.jpg"
+import Card from "react-bootstrap/Card";
 
 const SideBar =()=>{
 	return(
 
     <div className="col-sm-4">
       <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div className="fakeimg">Fake Image</div>
+      <h5>Photo of hamburger:</h5>
+      <Card.Img variant="top" src={hamburgesa} />
+      <div className="fakeimg" src = {hamburgesa}>Prueba la mejor hamburgesa, con la preparación de carnes seleccionadas</div>
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       <h3>Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>

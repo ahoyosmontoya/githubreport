@@ -1,8 +1,8 @@
 const Footer = () => {
 	return (
-	    <div>
-		footer from component
-	    </div>
+		<div className="jumbotron text-center" style={{marginBottom:"0"}}>
+		<p>Footer</p>
+	      </div>
 	);
     }
     
